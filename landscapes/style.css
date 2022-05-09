@@ -29,4 +29,12 @@ body {
     font-family: 'Titillium Web', sans-serif;
     background-color: var(--color2);
     background-image: 'puppy.place';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 500px;
+    border-radius: 50%;
 }

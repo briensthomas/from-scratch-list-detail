@@ -3,7 +3,7 @@ export function renderLandscape(landscape) {
     landscapeDiv.classList.add('landscape');
 
     const landscapeA = document.createElement('a');
-    landscapeA.href = `/Nature/?id=${landscape.id}`;
+    landscapeA.href = `/landscapes/?id=${landscape.id}`;
 
     const landscapeH2 = document.createElement('h2');
     landscapeH2.textContent = landscape.name;
@@ -17,4 +17,8 @@ export function renderLandscape(landscape) {
     landscapeA.append(landscapeH2);
     landscapeDiv.append(landscapeA, landscapeImg, landscapeP);
     return landscapeDiv;
+}
+
+export function findById(id, arr) {
+    return arr.find((item) => item.id === id);
 }
