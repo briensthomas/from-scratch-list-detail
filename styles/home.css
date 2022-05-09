@@ -1,1 +1,20 @@
-/* add home page styles here */
+#landscapes-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.landscape {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    align-items: center;
+    margin: 50px;
+    font-weight: 700;
+}
+
+.landscape img {
+    width: 100%;
+    border-radius: 50%;
+}
