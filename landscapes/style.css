@@ -1,11 +1,12 @@
 body {
     /* feel free to update these css variables for a quick theme */
+    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap');
     
-    --color1: white;
-    --color2: white;
-    --color3: white;
-    --color4: white;
-    --color5: white;
+    --uranian-blue: hsla(208, 88%, 84%, 1);
+    --shadow: hsla(32, 16%, 48%, 1);
+    --queen-blue: hsla(207, 41%, 42%, 1);
+    --baby-blue-eyes: hsla(209, 96%, 78%, 1);
+    --bistre: hsla(21, 34%, 18%, 1);
     
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
         
@@ -26,7 +27,7 @@ body {
     --gutter: 30px;
     --footer-height: 25px;
     
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     background-color: var(--color2);
     background-image: 'puppy.place';
     display: flex;
