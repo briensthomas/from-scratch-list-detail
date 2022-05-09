@@ -14,5 +14,4 @@ console.log(nature);
 
 landscapeName.textContent = nature.name;
 landscapeImage.src = `../assets/${nature.name}.jpg`;
-landscapePara.textContent = `This is one of Cheyanne's favorite types of nature, 
-    she says "${nature.shyEnjoyment} would go again!"`;
+landscapePara.textContent = `${nature.shyEnjoyment}`;

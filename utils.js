@@ -12,10 +12,10 @@ export function renderLandscape(landscape) {
     landscapeImg.src = `./assets/${landscape.name}.jpg`;
 
     const landscapeP = document.createElement('p');
-    landscapeP.textContent = `Shy thinks this is a ${landscape.shyEnjoyment} spot to visit`;
+    landscapeP.textContent = `${landscape.details}`;
 
-    landscapeA.append(landscapeH2);
-    landscapeDiv.append(landscapeA, landscapeImg, landscapeP);
+    landscapeA.append(landscapeH2, landscapeImg);
+    landscapeDiv.append(landscapeA, landscapeP);
     return landscapeDiv;
 }
 
