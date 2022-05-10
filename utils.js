@@ -10,6 +10,7 @@ export function renderLandscape(landscape) {
 
     const landscapeImg = document.createElement('img');
     landscapeImg.src = `./assets/${landscape.name}.jpg`;
+        
 
     const landscapeP = document.createElement('p');
     landscapeP.textContent = `${landscape.details}`;

@@ -15,6 +15,7 @@
     width: 100px;
     border-radius: 50%;
 }
+
 .landscape {
     width: 200px;
     background-color: var(--uranian-blue);
