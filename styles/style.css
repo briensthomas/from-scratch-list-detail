@@ -3,10 +3,15 @@ body {
     /* feel free to update these css variables for a quick theme */
     
     --uranian-blue: hsla(208, 88%, 84%, 1);
-    --shadow: hsla(32, 16%, 48%, 1);
+    --brown: hsla(32, 16%, 48%, 1);
     --queen-blue: hsla(207, 41%, 42%, 1);
     --baby-blue-eyes: hsla(209, 96%, 78%, 1);
     --bistre: hsla(21, 34%, 18%, 1);
+    --blue-jeans: hsla(209, 87%, 65%, 1);
+    --raw-umber: hsla(32, 28%, 38%, 1);
+    --tan: hsla(35, 38%, 69%, 1);
+    --french-sky-blue: hsla(210, 91%, 73%, 1);
+    --black-coffee: hsla(349, 10%, 21%, 1);
     
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
         
@@ -27,8 +32,40 @@ body {
     --gutter: 30px;
     --footer-height: 25px;
     
-    font-family: 'Titillium Web', sans-serif;
-    background-color: var(--color2);
+    font-family: 'Work Sans', sans-serif;
+    background-color: var(--tan);
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--black-coffee);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav li {
+    float: left;
+    border-bottom: 1px solid var(--black-coffee);
+}
+
+.nav a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover {
+    background-color: var(--black-coffee);
+}
+
+.active {
+    background-color: var(--queen-blue);
 }
 
 main {
@@ -56,7 +93,7 @@ section {
 header {
     display: flex;
     justify-content: flex-end;
-    background-color: var(--color3);
+    background-color: var(--queen-blue);
     height: var(--header-height);
     box-shadow: var(--shadow);
 }
@@ -65,6 +102,7 @@ header {
 h2 {
     font-size: 1.8rem;
     font-weight: bold;
+    text-align: center;
 }
 
 .gutter-right {

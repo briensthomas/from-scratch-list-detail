@@ -17,9 +17,10 @@
 }
 .landscape {
     width: 200px;
+    background-color: var(--uranian-blue);
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
+    border: 2px solid var(--queen-blue);
     align-items: center;
     margin: 50px;
     font-weight: 600;
