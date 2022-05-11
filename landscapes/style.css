@@ -111,18 +111,33 @@ header img {
 }
 
 
-
 .gutter-right {
     margin-right: 20px;
 }
 
 .landscapes img {
-    width: 500px;
-    border-radius: 50%;
+    width: 350px;
+    min-width: 350px;
+    display: inline-flex;
+    flex-direction: row;
 }
 
 .landscapes {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.landscapes ul {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.landscapes li {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    margin: 10px;
 }
