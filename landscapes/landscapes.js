@@ -9,10 +9,8 @@ const landscape2 = document.getElementById('landscape-2');
 const landscapePara = document.getElementById('landscape-para');
 
 const parameters = new URLSearchParams(window.location.search);
-console.log(parameters.get('id'), landscapesArray);
 
 const nature = findById(parameters.get('id'), landscapesArray);
-console.log(nature);
 
 
 landscapeName.textContent = nature.name;
